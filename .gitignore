@@ -1,6 +1,6 @@
 /.htaccess
 *.log
-
+/node_modules/
 # Cache
 /cache/*
 !/cache/.htaccess
@@ -117,6 +117,7 @@ modules/*
 override/*
 themes/*/
 !themes/classic
+!themes/classic-enfant
 !themes/_core
 !themes/_libraries
 
@@ -169,3 +170,4 @@ themes/default-bootstrap/modules/*/mails/*
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
+

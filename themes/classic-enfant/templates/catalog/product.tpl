@@ -1,0 +1,1 @@
+{extends file='parent:catalog/product.tpl'}
